@@ -1963,6 +1963,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "PostsList",
@@ -2559,6 +2560,10 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container-fluid" }, [
+    _c("h2", { staticClass: "text-center py-3 text-uppercase fw-bold" }, [
+      _vm._v("Lista dei post"),
+    ]),
+    _vm._v(" "),
     _c(
       "div",
       { staticClass: "row p-4" },
